@@ -471,6 +471,6 @@ export const supportedPools = [
 //    tokenSymbol: 'renBTC',
 //    icon: '👨🏻‍🍳',
 //
-   },
-}
+  },
+]
 

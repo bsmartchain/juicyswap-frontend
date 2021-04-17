@@ -6,11 +6,11 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink
         target="_blank"
-        href="#"
+        href="https://exchange.backup.finance/"
       >
         BackupMaster Contract
       </StyledLink>
-      {/<StyledLink
+      >
         target="_blank"
         href="https://uniswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
       >

@@ -8,24 +8,24 @@ const Nav: React.FC = () => {
         target="_blank"
         href="#"
       >
-        JuiceMaster Contract
+        BackupMaster Contract
       </StyledLink>
-      {/*<StyledLink
+      {/<StyledLink
         target="_blank"
         href="https://uniswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
       >
         SushiSwap SUSHI-ETH
-      </StyledLink> */}
-      <StyledLink target="_blank" href="#">
+      </StyledLink> /}
+      <StyledLink target="_blank" href="https://discord.com/">
         Discord
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://github.com/Backupfinance">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://twitter.com/BACKUP_FINANCE">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://backupfinance.medium.com/">
         Medium
       </StyledLink>
     </StyledNav>

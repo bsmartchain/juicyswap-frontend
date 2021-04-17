@@ -77,7 +77,7 @@ const Farm: React.FC = () => {
         </StyledCardsWrapper>
         <Spacer size="lg" />
         <StyledInfo>
-          ⭐️ Hello Binance Smart Chain Community! Backup Money Everytime You Stake And Unstake LP Tokens, The Contract Will
+          ⭐️ Hello Binance Smart Chain Community! Backup money everytime you stake and unstake LPs okens, the Contract Will
           Automagically Harvest BUP Rewards For You!
         </StyledInfo>
         <Spacer size="md" />

@@ -77,13 +77,13 @@ const Farm: React.FC = () => {
         </StyledCardsWrapper>
         <Spacer size="lg" />
         <StyledInfo>
-          ⭐️ Every time you stake and unstake LP tokens, the contract will
-          automagically harvest JUICY rewards for you!
+          ⭐️ Hello Binance Smart Chain Community! Backup Money Everytime You Stake And Unstake LP Tokens, The Contract Will
+          Automagically Harvest BUP Rewards For You!
         </StyledInfo>
         <Spacer size="md" />
         <StyledLink
           target="__blank"
-          href={`https://sushiswap.vision/pair/${lpTokenAddress}`}
+          href={`https://backup.finance/pair/${lpTokenAddress}`}
         >
           {lpTokenName} Info
         </StyledLink>

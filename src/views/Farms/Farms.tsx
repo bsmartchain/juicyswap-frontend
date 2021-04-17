@@ -27,7 +27,7 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn JUICY tokens by staking JuicySwap SLP Tokens. Note: Current APY does not include 2/3rd SUSHI emission that is locked and will be retroactively disbursed at a later date."
+                subtitle="𝐞𝐚𝐫𝐧 𝐛𝐮𝐩 𝐭𝐨𝐤𝐞𝐧𝐬 𝐛𝐲 𝐛𝐚𝐜𝐤𝐮𝐩 𝐬𝐰𝐚𝐩 𝐥𝐩 𝐭𝐨𝐤𝐞𝐧𝐬.. 𝙚𝙫𝙚𝙧𝙮 𝙬𝙚𝙚𝙠 𝙚𝙖𝙘𝙝 𝙪𝙨𝙚𝙧 𝙬𝙞𝙡𝙡 𝙧𝙚𝙘𝙚𝙞𝙫𝙚 𝙖 1% 𝙙𝙞𝙨𝙘𝙤𝙪𝙣𝙩 𝙤𝙣 𝙥𝙤𝙤𝙡𝙨 𝙖 𝙨𝙥𝙚𝙘𝙞𝙖𝙡 𝙤𝙣𝙚 𝙤𝙣𝙡𝙮 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙖𝙩 𝙗𝙖𝙘𝙠𝙪𝙥 "
                 title="Select Your Favorite Juices"
               />
               <FarmCards />

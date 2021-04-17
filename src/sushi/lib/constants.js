@@ -72,45 +72,66 @@ SLP Address on mainnet for reference
 12 SUSHI 0xce84867c3c02b05dc570d0135103d3fb9cc19433
 */
 
-// export const supportedPools = [
-//   {
-//     pid: 12,
-//     lpAddresses: {
-//       1: '0x795065dCc9f64b5614C407a6EFDC400DA6221FB0',
-//     },
-//     tokenAddresses: {
-//       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
-//     },
-//     name: 'Sushi Party!',
-//     symbol: 'SUSHI-ETH SLP',
-//     tokenSymbol: 'SUSHI',
-//     icon: '🍣',
-//   },
-//   {
-//     pid: 18,
-//     lpAddresses: {
-//       1: '0xdafd66636e2561b0284edde37e42d192f2844d40', //change this
-//     },
-//     tokenAddresses: {
-//       1: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
-//     },
-//     name: 'UNI Unicorn',
-//     symbol: 'UNI-ETH SLP',
-//     tokenSymbol: 'UNI',
-//     icon: '🦄',
-//   },
-//   {
-//     pid: 0,
-//     lpAddresses: {
-//       1: '0x06da0fd433C1A5d7a4faa01111c044910A184553',
-//     },
-//     tokenAddresses: {
-//       1: '0xdac17f958d2ee523a2206206994597c13d831ec7',
-//     },
-//     name: 'Tether Turtle',
-//     symbol: 'USDT-ETH SLP',
-//     tokenSymbol: 'USDT',
-//     icon: '🐢',
+// JUICYSWAP SETTINGS
+
+export const CHAIN_ID = 56
+
+export const contractAddresses = {
+  sushi: {
+    56: '0x647921E5B014b0c3831Ff10944E77039606bb8A4',
+  },
+  masterChef: {
+    56: '0xef4D473A6CC05184fb64670F85e412E068E15Dd7',
+  },
+  weth: {
+    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+  },
+  xSushi: {
+    56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5' // NOTE: Not in use
+  }
+}
+
+
+
+export const supportedPools = [
+  {
+    pid: 0,
+    lpAddresses: {
+      56: '0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414', // LP Token Address
+    },
+    tokenAddresses: {
+      56: '0x2A94918e7c8eAa27e9a2e0e818dFC24b18e56858', // Token, FCAR
+    },
+    name: 'Backup Money!',
+    symbol: 'BUP-BNB LP',
+    tokenSymbol: 'BUP',
+    icon: '💠',
+    },
+   {
+     pid: 1,
+     lpAddresses: {
+       56: '0xdafd66636e2561b0284edde37e42d192f2844d40', //change this
+    },
+     tokenAddresses: {
+       56: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
+     },
+     name: 'UNI Unicorn',
+     symbol: 'UNI-ETH SLP',
+     tokenSymbol: 'UNI',
+     icon: '🦄',
+   },
+   {
+     pid: 2,
+     lpAddresses: {
+       56: '0x06da0fd433C1A5d7a4faa01111c044910A184553',
+     },
+     tokenAddresses: {
+       56: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+     },
+     name: 'Tether Turtle',
+     symbol: 'USDT-ETH SLP',
+     tokenSymbol: 'USDT',
+     icon: '🐢',
 //   },
 //   {
 //     pid: 1,
@@ -449,48 +470,7 @@ SLP Address on mainnet for reference
 //    symbol: 'renBTC-WBTC SLP',
 //    tokenSymbol: 'renBTC',
 //    icon: '👨🏻‍🍳',
-//  },
-// ]
-
-
-
-
-
-// JUICYSWAP SETTINGS
-
-export const CHAIN_ID = 56
-
-export const contractAddresses = {
-  sushi: {
-    56: '0x2A94918e7c8eAa27e9a2e0e818dFC24b18e56858',
-  },
-  masterChef: {
-    56: '0xef4D473A6CC05184fb64670F85e412E068E15Dd7',
-  },
-  weth: {
-    56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-  },
-  xSushi: {
-    56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5' // NOTE: Not in use
-  }
+//
+   },
 }
-
-
-
-export const supportedPools = [
-  {
-    pid: 0,
-    lpAddresses: {
-      56: '0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414', // LP Token Address
-    },
-    tokenAddresses: {
-      56: '0x2A94918e7c8eAa27e9a2e0e818dFC24b18e56858', // Token, FCAR
-    },
-    name: 'Backup Money!',
-    symbol: 'BUP-BNB LP',
-    tokenSymbol: 'BUP',
-    icon: '💠',
-  },
-]
-
 

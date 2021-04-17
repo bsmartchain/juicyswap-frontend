@@ -462,7 +462,7 @@ export const CHAIN_ID = 56
 
 export const contractAddresses = {
   sushi: {
-    56: '0xef4D473A6CC05184fb64670F85e412E068E15Dd7',
+    56: '0x2A94918e7c8eAa27e9a2e0e818dFC24b18e56858',
   },
   masterChef: {
     56: '0xef4D473A6CC05184fb64670F85e412E068E15Dd7',
@@ -471,7 +471,7 @@ export const contractAddresses = {
     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
   },
   xSushi: {
-    56: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
+    56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5' // NOTE: Not in use
   }
 }
 
@@ -484,7 +484,7 @@ export const supportedPools = [
       56: '0xb7fb8c26300Fdd2D5798F3495099884F2aB0D414', // LP Token Address
     },
     tokenAddresses: {
-      56: '0x5D69342fF9C20d49C99317Aef682D67bf3E4e7F5', // Token, FCAR
+      56: '0x2A94918e7c8eAa27e9a2e0e818dFC24b18e56858', // Token, FCAR
     },
     name: 'Backup Money!',
     symbol: 'BUP-BNB LP',

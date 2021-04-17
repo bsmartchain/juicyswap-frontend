@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
         target="_blank"
         href="https://bscscan.com/address/0xef4d473a6cc05184fb64670f85e412e068e15dd7"
       >
-       𝒃𝒖𝒑𝒄𝒐𝒏𝒕𝒓𝒂𝒄𝒕 𝒎𝒂𝒔𝒕𝒆𝒓𝒄𝒉𝒆𝒇
+       𝒄𝒐𝒏𝒕𝒓𝒂𝒄𝒕 𝒎𝒂𝒔𝒕𝒆𝒓𝒄𝒉𝒆𝒇
       </StyledLink>
       <StyledLink
         target="_blank"
@@ -22,7 +22,7 @@ const Nav: React.FC = () => {
       <StyledLink target="_blank" href="https://twitter.com/BACKUP_FINANCE">
          𝐭𝐰𝐢𝐭𝐭𝐞𝐫
       </StyledLink>
-      <StyledLink target="_blank" href="https://t.me/BACKUPFINANCE">
+      <StyledLink target="_blank" href="https://t.me/BACKUPSWAP">
         𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦
       </StyledLink>
     </StyledNav>

@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="Juice Master is Ready"
-        subtitle="Stake JuicySwap LP tokens to claim your very own yummy JUICY!"
+        title="Backup Master is Ready"
+        subtitle="Stake BUP LP tokens to claim your very own 💠 BUP!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: JUICY-ETH LP token pool yields 4.8x more token
+       Ⓜ <b>Pro Tip</b>: BUP-BNB LP token pool yields 10.5x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
-        <Button text="🔪 See the Menu" to="/farms" variant="secondary" />
+        <Button text="🌐 See the Menu" to="/farms" variant="secondary" />
       </div>
     </Page>
   )

@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-       Ⓜ <b>Pro Tip</b>: BUP-BNB LP token pool yields 10.5x more token
+       💫 <b>Pro Tip</b>: BUP-BNB LP token pool yields 10.5x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
-        <Button text="🌐 See the Menu" to="/farms" variant="secondary" />
+        <Button text="♻ See the Menu" to="/farms" variant="secondary" />
       </div>
     </Page>
   )

@@ -5,17 +5,17 @@ import styled from 'styled-components'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledLink exact activeClassName="active" to="/">
-        Home
+      <StyledLink exact activeClassName="active" to="https://exchange.backup.finance/">
+        Exchange
       </StyledLink>
       <StyledLink exact activeClassName="active" to="/farms">
         Menu
       </StyledLink>
       <StyledAbsoluteLink
-        href="#"
+        href="https://t.me/SupportBackup"
         target="_blank"
       >
-        About
+        Support
       </StyledAbsoluteLink>
     </StyledNav>
   )

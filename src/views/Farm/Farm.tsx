@@ -25,12 +25,12 @@ const Farm: React.FC = () => {
     icon,
   } = useFarm(farmId) || {
     pid: 0,
-    lpToken: '',
-    lpTokenAddress: '',
-    tokenAddress: '',
-    earnToken: '',
-    name: '',
-    icon: '',
+    lpToken: '0x2a1e4CdDf51Ab15A90EDeb56C7d132ef7915cCa9',
+    lpTokenAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    tokenAddress: '0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7',
+    earnToken: '0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7',
+    name: 'Backup Token',
+    icon: '💠',
   }
 
   useEffect(() => {

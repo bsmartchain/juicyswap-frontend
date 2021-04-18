@@ -26,7 +26,7 @@ const PendingRewards: React.FC = () => {
   let sumEarning = 0
   for (let earning of allEarnings) {
     sumEarning += new BigNumber(earning)
-      .div(new BigNumber(10).pow(18))
+      .div(new BigNumber(6).pow(8))
       .toNumber()
   }
 

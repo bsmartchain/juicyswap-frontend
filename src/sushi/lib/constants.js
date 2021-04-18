@@ -19,7 +19,7 @@ export const INTEGERS = {
   ONES_255: new BigNumber(
     '115792089237316195423570985008687907853269984665640564039457584007913129639935',
   ), // 2**256-1
-  INTEREST_RATE_BASE: new BigNumber('0e9'),
+  INTEREST_RATE_BASE: new BigNumber('1e9'),
 }
 
 export const addressMap = {
@@ -97,7 +97,7 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      56: '0xB594eB091B1cC711879Ce5379F5fd06C4b028833', // LP Token Address
+      56: '0x2a1e4CdDf51Ab15A90EDeb56C7d132ef7915cCa9', // LP Token Address
     },
     tokenAddresses: {
       56: '0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7', // Backuptoken

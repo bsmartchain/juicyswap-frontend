@@ -87,7 +87,7 @@ export const contractAddresses = {
     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', // WBNB
   },
   xSushi: {
-    56: '0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f'; // NOTE: Not in use
+    56: '0x0E6ef701E9CEF56A516C2e10ad093Be351B6c90f' // NOTE: Not in use
   }
 }
 

@@ -12,11 +12,11 @@ const Nav: React.FC = () => {
       </StyledLink>
       <StyledLink
         target="_blank"
-        href="https://exchange.backup.finance/#/swap?inputCurrency="
+        href="https://exchange.backup.finance/#/swap?inputCurrency=0x48e15ABBcb21C7f564c1B5Ae08A9f7829745F6D7"
       >
         𝐭𝐫𝐚𝐝𝐞 𝐛𝐮𝐩-𝐛𝐧𝐛
       </StyledLink>
-      <StyledLink target="_blank" href="http://backup.medium.com">
+      <StyledLink target="_blank" href="/">
         𝐛𝐚𝐜𝐤𝐮𝐩 𝐧𝐞𝐰𝐬
       </StyledLink>
       <StyledLink target="_blank" href="https://twitter.com/BACKUP_FINANCE">

@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js/bignumber'
 
-export const SUBTRACT_GAS_LIMIT = 100000
+export const SUBTRACT_GAS_LIMIT = 0
 
-const ONE_MINUTE_IN_SECONDS = new BigNumber(60)
+const ONE_MINUTE_IN_SECONDS = new BigNumber(0)
 const ONE_HOUR_IN_SECONDS = ONE_MINUTE_IN_SECONDS.times(60)
 const ONE_DAY_IN_SECONDS = ONE_HOUR_IN_SECONDS.times(24)
 const ONE_YEAR_IN_SECONDS = ONE_DAY_IN_SECONDS.times(365)
@@ -13,13 +13,13 @@ export const INTEGERS = {
   ONE_DAY_IN_SECONDS,
   ONE_YEAR_IN_SECONDS,
   ZERO: new BigNumber(0),
-  ONE: new BigNumber(1),
-  ONES_31: new BigNumber('4294967295'), // 2**32-1
+  ONE: new BigNumber(0),
+  ONES_31: new BigNumber('0'), // 2**32-1
   ONES_127: new BigNumber('340282366920938463463374607431768211455'), // 2**128-1
   ONES_255: new BigNumber(
     '115792089237316195423570985008687907853269984665640564039457584007913129639935',
   ), // 2**256-1
-  INTEREST_RATE_BASE: new BigNumber('1e9'),
+  INTEREST_RATE_BASE: new BigNumber('0'),
 }
 
 export const addressMap = {
@@ -110,36 +110,36 @@ export const supportedPools = [
    {
      pid: 1,
      lpAddresses: {
-       56: '0xdafd66636e2561b0284edde37e42d192f2844d40', //change this
+       56: '0xD1FEa1b8Cc81452a16bBF455952aD73Aa9Bd24Aa', //change this
     },
      tokenAddresses: {
-       56: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
+       56: '0x9C65AB58d8d978DB963e63f2bfB7121627e3a739',
      },
-     name: 'UNI Unicorn',
-     symbol: 'UNI-ETH SLP',
-     tokenSymbol: 'UNI',
-     icon: '🦄',
+     name: 'MDEX Token',
+     symbol: 'MDX-WBNB LP',
+     tokenSymbol: 'MDX',
+     icon: 'Ⓜ',
    },
    {
      pid: 2,
      lpAddresses: {
-       56: '0x06da0fd433C1A5d7a4faa01111c044910A184553',
+       56: '0x901Fca3Ee6E27d1d396801EC4a8a8F5E2E68DB35',
      },
      tokenAddresses: {
-       56: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+       56: '0x901Fca3Ee6E27d1d396801EC4a8a8F5E2E68DB35',
      },
-     name: 'Tether Turtle',
-     symbol: 'USDT-ETH SLP',
-     tokenSymbol: 'USDT',
-     icon: '🐢',
+     name: 'Juicy Protocol',
+     symbol: 'JUICY-WBNB LP',
+     tokenSymbol: 'JUICY',
+     icon: '🍊',
 //   },
 //   {
 //     pid: 1,
 //     lpAddresses: {
-//       1: '0x397FF1542f962076d0BFE58eA045FfA2d347ACa0',
+//       1: '0x901Fca3Ee6E27d1d396801EC4a8a8F5E2E68DB35',
 //     },
 //     tokenAddresses: {
-//       1: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+//       1: '0x901Fca3Ee6E27d1d396801EC4a8a8F5E2E68DB35',
 //     },
 //     name: 'Circle Snail',
 //     symbol: 'USDC-ETH SLP',
